@@ -2,16 +2,22 @@ package de.telekom.sea.javaChallenge;
 
 import de.telekom.sea.javaChallenge.part1.Part1;
 import de.telekom.sea.javaChallenge.part2.Part2;
+import de.telekom.sea.javaChallenge.part3.Part3;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Part1 part1 = new Part1();
-		part1.run();
+
+		//Part1 part1 = new Part1();
+		//part1.run();
 		
-		Part2 part2 = new Part2();
-		part2.sortBySize();
+		//Part2 part2 = new Part2();
+		//part2.sortBySize();
+		
+		Part3 part3 = new Part3();
+		part3.runFor();
+		part3.runWhile();
+		part3.runDoWhile();
 	}
 
 }
