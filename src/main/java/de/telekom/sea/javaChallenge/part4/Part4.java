@@ -34,7 +34,7 @@ public class Part4 {
 					i++;
 				}				
 			}
-			System.out.println("Der Buchstabe " + c + " kommt " + i + "mal vor");			
+			System.out.println("Der Buchstabe " + c + " kommt " + i + " mal vor");			
 		}
 	}
 	
