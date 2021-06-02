@@ -23,4 +23,12 @@ public class Part2 {
 			}
 		}
 	}
+	
+	public void run() {
+		System.out.println();
+		System.out.println("############ Part 2 #############");
+		System.out.println();
+		
+		sortBySize(); 
+	}
 }

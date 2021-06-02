@@ -42,4 +42,12 @@ public class Part4 {
 	public void count() {
 		count(poem);
 	}
+	
+	public void run() {
+		System.out.println();
+		System.out.println("############ Part 1 #############");
+		System.out.println();
+		
+		count(poem);
+	}
 }
