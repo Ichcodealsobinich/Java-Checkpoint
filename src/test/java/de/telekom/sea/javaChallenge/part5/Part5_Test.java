@@ -15,11 +15,11 @@ import de.telekom.sea.javaChallenge.part5.*;
 
 public class Part5_Test {
 	
-	private Queue cut;
+	private Queue<Person> cut;
 	
 	@BeforeEach
 	void setup() {
-		cut = new Queue();
+		cut = new Queue<Person>();
 	}
 	
 	@Test
@@ -111,6 +111,22 @@ public class Part5_Test {
 		//Assert
 		assertEquals(0,cut.search(p1));
 		assertEquals(1,cut.search(p2));
+	}
+	
+	@Test
+	void iterTest() {
+		//Arrange
+		Person p1 = new PersonImpl();
+		
+		//Act
+		cut.add(p1);
+		cut.add(p1);
+		cut.add(p1);
+		
+		//Assert
+		for (Person p : cut) {
+			assertEquals(p1,p);
+		}
 	}
 	
 	@AfterEach

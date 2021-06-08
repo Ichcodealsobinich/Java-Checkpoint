@@ -8,7 +8,7 @@ public class Part5 {
 		System.out.println("############ Part 5 #############");
 		System.out.println();
 		
-		Queue queue = new Queue();
+		Queue<Person> queue = new Queue();
 		PersonImpl p1 = new PersonImpl();
 		p1.setVorname("Paul");
 		PersonImpl p2 = new PersonImpl();
